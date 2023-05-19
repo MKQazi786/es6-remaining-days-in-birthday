@@ -1,3 +1,8 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
 body{
    background-image: url(./image/birthday.jpg);
    margin-top: 9rem;
@@ -15,6 +20,12 @@ body{
     background-color: brown;
     color:white;
     font-size: medium;
+ }
+
+ select{
+  padding: 1em 2em;
+  border: 2px solid #000;
+  border-radius: 10px;
  }
 
  h1 {
@@ -54,6 +65,7 @@ footer{
    font-weight: bold;
    background-color:skyblue;
    border-radius: 1rem;
+   padding: 0.5rem 1rem;
   }
 
   @media only screen and (min-width:768px) {
