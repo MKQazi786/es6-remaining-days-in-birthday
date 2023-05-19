@@ -1,6 +1,10 @@
 body{
    background-image: url(./image/birthday.jpg);
    margin-top: 9rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 #button{
@@ -64,7 +68,7 @@ footer{
       width: fit-content;
       padding: 1rem;
       background-color: aqua;
-      margin-left: 17rem;
+      margin: 0em;
     }
     
 }
